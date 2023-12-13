@@ -1,0 +1,40 @@
+body{
+    background: rgb(36,0,22);
+    background: linear-gradient(156deg, rgba(36,0,22,1) 0%, rgba(121,9,102,1) 50%, rgba(255,0,159,1) 100%);
+    color: white;
+}
+
+.min-vh-100{
+    min-height: 100vh;
+}
+
+.calculator{
+    border: solid 5px black;
+    border-radius: 20px;
+    background-color: grey;
+    width: 500px;
+    height: 650px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.display{
+    background-color: black;
+    border-radius: 10px;
+    width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+}
+
+.btn-danger:hover{
+    background-color: rgb(161, 9, 9);
+}
+
+.btn-square{
+    min-height: 75px;
+}
+
+.btn-smaller{
+    min-height: 65px;
+}
+
+
