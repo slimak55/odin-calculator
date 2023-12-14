@@ -17,60 +17,60 @@
             <div class="col  text-center"><h1>Calculator</h1></div>
         </div>
         <div class="row mt-5">
-            <div class="col d-flex justify-content-center ">
+            <div class="col d-flex justify-content-center">
                 <div class="calculator">
                     <div class="container">
                         <div class="row mb-2">
-                            <div class="display d-flex align-items-center justify-content-end fs-3">1</div>
+                            <div class="display d-flex align-items-center justify-content-end fs-3"></div>
                         </div>
                         <div class="row mt-5 mb-2 h-100">
                             <div class="col-9">
                                 <div class="row mb-3">
-                                    <div class="col-4 text-center"><button class="btn btn-danger w-100">AC</button></div>
-                                    <div class="col-4 text-center"><button class="btn btn-danger  w-100">C</button></div>
-                                    <div class="col-4 text-center"><button class="btn btn-danger  w-100">AC</button></div>
+                                    <div class="col-4 text-center"><button class="btn btn-danger w-100" id="ac">AC</button></div>
+                                    <div class="col-4 text-center"><button class="btn btn-danger  w-100" id="delete">C</button></div>
+                                    <div class="col-4 text-center"><button class="btn btn-danger  w-100" id="idk">IDK</button></div>
                                 </div>
                                 <div class="row mb-3">
-                                    <div class="col-4 text-center"><button class="btn btn-light w-100 btn-square">7</button></div>
-                                    <div class="col-4 text-center"><button class="btn btn-light  w-100 btn-square">8</button></div>
-                                    <div class="col-4 text-center"><button class="btn btn-light  w-100 btn-square">9</button></div>
+                                    <div class="col-4 text-center"><button class="btn btn-light w-100 btn-square number" value="7">7</button></div>
+                                    <div class="col-4 text-center"><button class="btn btn-light  w-100 btn-square number" value="8">8</button></div>
+                                    <div class="col-4 text-center"><button class="btn btn-light  w-100 btn-square number" value="9">9</button></div>
                                 </div>
                                 <div class="row mb-3">
-                                    <div class="col-4 text-center"><button class="btn btn-light w-100 btn-square">4</button></div>
-                                    <div class="col-4 text-center"><button class="btn btn-light  w-100 btn-square">5</button></div>
-                                    <div class="col-4 text-center"><button class="btn btn-light  w-100 btn-square">6</button></div>
+                                    <div class="col-4 text-center"><button class="btn btn-light w-100 btn-square number" value="4">4</button></div>
+                                    <div class="col-4 text-center"><button class="btn btn-light  w-100 btn-square number" value="5">5</button></div>
+                                    <div class="col-4 text-center"><button class="btn btn-light  w-100 btn-square number" value="6">6</button></div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-4 text-center"><button class="btn btn-light w-100 btn-square">1</button></div>
-                                    <div class="col-4 text-center"><button class="btn btn-light  w-100 btn-square">2</button></div>
-                                    <div class="col-4 text-center"><button class="btn btn-light  w-100 btn-square">3</button></div>
+                                    <div class="col-4 text-center"><button class="btn btn-light w-100 btn-square number" value="1">1</button></div>
+                                    <div class="col-4 text-center"><button class="btn btn-light  w-100 btn-square number" value="2">2</button></div>
+                                    <div class="col-4 text-center"><button class="btn btn-light  w-100 btn-square number" value="3">3</button></div>
                                 </div>
                             </div>
                             <div class="col-3 h-100 mh-100 align-content-center ">
                                 <div class="row mb-3">
-                                    <div class="col text-center"><button class="btn btn-primary btn-smaller  w-100">/</button></div>
+                                    <div class="col text-center"><button class="btn btn-primary btn-smaller  w-100 signs" value="/">/</button></div>
                                 </div>
                                 <div class="row mb-3">
-                                    <div class="col text-center"><button class="btn btn-primary btn-smaller  w-100">*</button></div>
+                                    <div class="col text-center"><button class="btn btn-primary btn-smaller  w-100 signs" value="*">*</button></div>
                                 </div>
                                 <div class="row mb-3">
-                                    <div class="col text-center"><button class="btn btn-primary btn-smaller  w-100">-</button></div>
+                                    <div class="col text-center"><button class="btn btn-primary btn-smaller  w-100 signs" value="-">-</button></div>
                                 </div>
                                 <div class="row mb-3">
-                                    <div class="col text-center"><button class="btn btn-primary btn-smaller  w-100">+</button></div>
+                                    <div class="col text-center"><button class="btn btn-primary btn-smaller  w-100 signs" value="+">+</button></div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-6 text-center"><button class="btn btn-light btn-square w-100">0</button></div>
-                            <div class="col-6 text-center"><button class="btn btn-primary btn-square w-100 procees">=</button></div>
+                            <div class="col-4 text-center"><button class="btn btn-light btn-square w-100 number" value="0">0</button></div>
+                            <div class="col-4 text-center"><button class="btn btn-primary btn-square w-100 procees" id="change">+/-</button></div>
+                            <div class="col-4 text-center"><button class="btn btn-primary btn-square w-100 procees" id="op">=</button></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
 </body>
 <script src="app.js"></script>
 </html>
